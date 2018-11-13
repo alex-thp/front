@@ -1,14 +1,15 @@
 .tabs{
-    background-image: linear-gradient(red, #4889CB);
+    background-image: linear-gradient(#CF1014, #4889CB);
     border-radius: 25px;
     height: 30vh;
-    background-color: red;
+    background-color: #CF1014;
 	list-style-type: none;
 	padding:0;
 	margin:0;
 	display:flex;
 	justify-content: center;
-        position:relative;
+    position:relative;
+    color: white;
 }
 
 .tabs li{
@@ -30,8 +31,7 @@
 .tabs li > label {
     display:inline-block;
     background-color: #4889CB;
-    color: red;
-    border:1px solid;
+    color: white;
     border-radius: 10px;
     border-right-width:0vh;
     height: 2vh;
@@ -47,7 +47,7 @@
 /* ok */
 
 .tabs li > input:checked + label {
-	background-color:#ddd;
+	color: #CF1014;
 }
 
 .tabs li > input:checked ~ .tab-content {

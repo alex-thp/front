@@ -1,5 +1,5 @@
 .navbar{
-    background-image: linear-gradient(#4889CB, red);
+    background-image: linear-gradient(#4889CB, #CF1014);
     border-radius: 10px;
     width: 100%;
 	height: 5vh;
@@ -19,6 +19,11 @@
     justify-content: space-between;
     align-items: center;
     width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar_avatar{
