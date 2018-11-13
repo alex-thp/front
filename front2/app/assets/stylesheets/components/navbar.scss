@@ -1,0 +1,28 @@
+.navbar{
+    background-image: linear-gradient(#4889CB, red);
+    border-radius: 10px;
+    width: 100%;
+	height: 5vh;
+	display:flex;
+    align-items: row;
+	justify-content: space-between;
+}
+.navbar_logo{
+    display:flex;
+    align-items: flex-start;
+    margin-left: 2px;
+    width: 20%;
+}
+
+.navbar_right{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.navbar_avatar{
+     width: 10%;
+     height: 4vh;
+     margin-right: 4px;
+}

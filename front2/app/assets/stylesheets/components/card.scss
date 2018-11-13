@@ -1,0 +1,25 @@
+.card {
+    background-image: linear-gradient(#4889CB, red);
+    margin-left:40%;
+	width: 20%;
+	height: 40vh;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.image{
+	margin-top: 10%;
+}
+
+img { 
+	border-radius: 50%;
+}
+
+.container{
+	width: 100%;
+}
+
+ul.card_ul{
+	list-style-type: none;
+}

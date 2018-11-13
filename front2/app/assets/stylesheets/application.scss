@@ -1,0 +1,11 @@
+@import url("http://fonts.googleapis.com/ css?family=Open+Sans:400");
+@import "components/*"; 
+
+body {
+    background-image: linear-gradient(#4889CB, #4889CB);
+	height: 97vh;
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }

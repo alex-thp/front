@@ -1,0 +1,55 @@
+.tabs{
+    background-image: linear-gradient(red, #4889CB);
+    border-radius: 25px;
+    height: 30vh;
+    background-color: red;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content: center;
+        position:relative;
+}
+
+.tabs li{
+	float:left;
+	margin-top: 1%;
+} /* aligne mes boutons sur la même ligne */
+
+.tabs .tab-content{
+	display:none;
+        position:absolute;
+        left:1%;
+}
+/* permet de cacher le contenu associé à chaque bouton */
+
+.tabs li > input {
+	display:none;
+} /* permet de cacher les petites cases à cocher */
+
+.tabs li > label {
+    display:inline-block;
+    background-color: #4889CB;
+    color: red;
+    border:1px solid;
+    border-radius: 10px;
+    border-right-width:0vh;
+    height: 2vh;
+    padding: 2vh 3vh;
+    line-height:2vh;
+    cursor:pointer;
+}
+
+.tabs li:last-child > label{
+	border-right-width:1px;
+}
+
+/* ok */
+
+.tabs li > input:checked + label {
+	background-color:#ddd;
+}
+
+.tabs li > input:checked ~ .tab-content {
+        display:block;
+}

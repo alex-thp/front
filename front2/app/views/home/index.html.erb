@@ -1,1 +1,54 @@
-<p>Bienvenue</p>
+<body>
+<div class="navbar">
+	<div class="navbar_logo">
+		<%= image_tag("moi.png", height: '100%') %>
+	</div>
+	<div class="navbar_right">
+		<%= link_to 'Forum', to: '#'%>
+		<%= link_to 'Ma page', to: '#'%>
+		<%= link_to 'Settings', to: '#'%>
+		<div class="navbar_avatar">
+	      <%= image_tag("8biticon.jpg", height: '100%') %>
+        </div>
+	</div>
+</div>
+
+<div class="card">
+	<div class="image">
+	  <%= image_tag("8biticon.jpg", height: '150', width: '150') %>
+    </div>
+    <div class="container">
+      <ul class="card_ul">
+    	<h4>Alexandre de Temmerman</h4>
+        <p>Ruby on rails</p>
+        <button id="bouton_1" type="input">Voir le profil</button>
+      </ul>
+    </div>
+</div>
+<ul class="tabs">
+	<li>
+		<input type="radio" name="tabs" id="tab-1">
+		<label for="tab-1">Présentation</label>
+		<div class="tab-content">
+          <p>Salut, c'est Alexandre. Et c'est moi qui ai fait cette page pas très très design.</p>
+          <p>En ce moment je fait la formation THP !</p>
+		</div>
+	</li>
+	<li>
+		<input type="radio" name="tabs" id="tab-2">
+		<label for="tab-2">Infos perso</label>
+		<div class="tab-content">
+          <p>Mail : Alexandre2t@hotmail.fr</p>
+          <p>Centres d'interet: J'aime manger</p>
+   		</div>
+	</li>
+	<li>
+		<input type="radio" name="tabs" id="tab-3">
+		<label for="tab-3">Poulou</label>
+		<div class="tab-content">
+          <p>Je te présente Poulou, une image de chien trouvée sur internet :</p>
+          <%= image_tag("poulou.png", height: '100') %>
+		</div>
+	</li>
+</ul>
+</body>
